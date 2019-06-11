@@ -76,8 +76,8 @@ aside {
     position: absolute;
     top: 0;
     right: 0;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
 h1 {
     text-indent: 7%;
@@ -96,6 +96,11 @@ p {
     margin: 0.5%;
     position: relative;
 }
+.aviBody::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 /* Mobile Styles */
 @media screen and (max-width: 600px) {
     ul.aviNavi li.right, 
