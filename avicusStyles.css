@@ -52,6 +52,15 @@ footer {
     margin: 0.5%;
 }
 /* Main Data Styles */
+.aviBody {
+    overflow: auto;
+    margin: 0.5%;
+}
+.aviBody::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 section {
     background-color: rgb(170, 170, 170);
     border-radius: 7px;
@@ -73,7 +82,6 @@ aside {
     padding: 14px;
     width:33.2%;
     float: right;
-    position: absolute;
     top: 0;
     right: 0;
     margin-bottom: 0%;
@@ -86,21 +94,11 @@ h2 {
     text-indent: 4%;
 }
 h3 {
-    text-indent: 1%;
+    text-indent: 0%;
 }
 p {
     text-align: justify;
 }
-.aviBody {
-    overflow: auto;
-    margin: 0.5%;
-    position: relative;
-}
-.aviBody::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 /* Mobile Styles */
 @media screen and (max-width: 600px) {
     ul.aviNavi li.right, 
