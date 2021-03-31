@@ -7,11 +7,10 @@
     <body style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
         <header>
             <ul style="padding: 14px 14px;list-style-type:none;overflow: hidden;background-color: #202060;border-radius: 13px;">
-                <li style="float:left;"><img src="selooslino.png" style="height: 22px;"></li>
+                <li style="float:left;"><a href="index.html"><img src="selooslino.png" style="height: 22px;"></li></a>
                 <li style="float:left;"><a style="color: white;text-decoration: none;margin-left: 20px;" href="tavern.html">Таверна</a></li>
                 <li style="float:left;"><a style="color: white;text-decoration: none;margin-left: 14px;" href="oslinomobil.html">Ослиномобиль</a></li>
                 <li style="float:left;"><a style="color: white;text-decoration: none;margin-left: 14px;" href="games.html">Gamedev</a></li>
-
                 <li style="float:left;"><a style="color: white;text-decoration: none;margin-left: 14px;" href="https://www.tinkoff.ru/sl/5cTJXFeeUoD">Задонатить</a></li>
                 <li id="login" style="float:right;">
                     <!-- Вот здесь сделаем управление входом в учётку -->
@@ -22,18 +21,28 @@
                 <li style="float:right;"><a style="color: white;text-decoration: none;margin: 14px;" href="vosline.html">В ослине:</a></li>
             </ul>
         </header>
-        <nav style="margin-left: 25px; margin-top: 20px; float:left">
-            <ul style="  margin: 0;padding: 0;list-style-type: none;width: 200px;height: 400px;">
-                <li><a style="display: block;padding: 8px 16px;text-decoration: none;color: #000;" href="#">Мой профиль</a></li>
-                <li><a style="display: block;padding: 8px 16px;text-decoration: none;color: #000;"href="#">Односельчане</a></li>
-                <li><a style="display: block;padding: 8px 16px;text-decoration: none;color: #000;"href="#">Чатег</a></li>
-                <li><a style="display: block;padding: 8px 16px;text-decoration: none;color: #000;"href="#">Настройки</a></li>
-              </ul>
-        </nav>
-        <section style="float:left">
-            <h1>А вот тут уже будет всякое</h1>
-            <p>Ну там чатики, профили итд</p>
+        <h1>Ослиномобиль</h1>
+        <p>Этот раздел посвящён муниципальному автомобилю села Ослино: <strong>Ока 11113</strong> производства Камаз.<br><br>
+            Мы долго вынашивали план по покупке автомобиля, чтобы выбираться на природу или на дачу с односельчанами, рассматривали жигули, оку и даже запорожец, 
+            но в результате остановились на оке из-за её простоты, низкого расхода топлива и малого веса. 
+        </p>
+        <br><hr>
+        <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UP1iqaCU-C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 style="margin-left: 580px;margin-top: -315px;">Покупка Ослиномобиля</h1>
+            <p style="margin-left: 580px">Ослиномобиль был куплен в нерабочем состоянии, так что нам пришлось в нём поковыряться, чтобы починить.
+                И вот, впервые поставив на ход машину, <a href="https://vk.com/avicusdelacroix">Авикус</a>, <a href="https://vk.com/superoslino">Ефим</a> и <a href="https://vk.com/void_ray">Панамарь</a> выехали до ближайшего полигона, чтобы протестировать управление.
+            </p>
         </section>
+        <hr style="margin-top: 250px;">
+        <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pQzOZikWQbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 style="margin-left: 580px;margin-top: -315px;">Боевое крещение Ослиномобиля</h1>
+            <p style="margin-left: 580px">А в этом эпизоде мы устроили настоящее тестирование Ослиномобилю: поехали за 300 км от города на дачу к <a href="https://vk.com/superoslino">Ефиму</a>.
+                По большей части это была грунтовка, так что местами мы ехали по двери в глине, но Ока стойко прошла весь путь.
+            </p>
+        </section>
+        <hr style="margin-top: 250px;">
     <script>
         function funlogin() {
             document.getElementById("login").innerHTML = '<img src="panamka.jpg" style="height: 15px;"><a style="color: white;text-decoration: none;"> Панамарь</a><button onclick="funlogoff()">Выход</button>';
